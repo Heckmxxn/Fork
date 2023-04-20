@@ -1,7 +1,16 @@
 import styled from 'styled-components';
 
 export const RecipeContainer = styled.div`
-  margin-top: 20px;
+  div {
+    margin-top: 20px;
+  }
+
+  button {
+    margin-left: 150px;
+    margin-top: 100px;
+    width: 400px;
+    height: 100px;
+  }
 `;
 
 export const RecipePicture = styled.div`

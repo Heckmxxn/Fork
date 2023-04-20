@@ -3,6 +3,7 @@ import { Switch } from 'react-router-dom';
 
 import MyRoute from './MyRoute';
 
+import Header from '../components/Header';
 import Home from '../pages/Home';
 import Recipe from '../pages/Recipe';
 import Search from '../pages/Search';
