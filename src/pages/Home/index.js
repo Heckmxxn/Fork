@@ -17,7 +17,7 @@ export default function Receitas() {
     <Container>
       <h1>Recipes</h1>
       {recipes.map((recipe) => {
-        <div key={String(recipe.title)}>teste</div>;
+        <div key={String(recipe.title)}>{recipe.title}</div>;
       })}
     </Container>
   );
